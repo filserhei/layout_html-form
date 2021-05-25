@@ -8,11 +8,11 @@
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <!-- <h1>HTML Form</h1> -->
-    <form 
+    <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="POST"
       onsubmit="onSubmit()"
@@ -25,27 +25,29 @@
           <label for="_surname">
             Surname:
           </label>
-          <input 
+          <input
             type="text"
             name="surname"
             id="_surname"
+            autocomplete="off"
           >
         </div>
         <div class="item">
           <label for="_name">
             Name:
           </label>
-          <input 
+          <input
             type="text"
             name="name"
             id="_name"
+            autocomplete="off"
           >
         </div>
         <div class="item">
           <label for="_age">
-            How old are you?
+            How old are You?
           </label>
-          <input 
+          <input
             type="number"
             name="age"
             id="_age"
@@ -113,25 +115,25 @@
           <label for="_love-cats-y">
             Do you love cats?
           </label>
-            <input
+          <input
               type="radio"
               name="love-cats"
               id="_love-cats-y"
               value="yes"
-            > 
-              <label for="_love-cats-y">
-                Yes
-              </label>
-            <input
+            >
+          <label for="_love-cats-y">
+            Yes
+          </label>
+          <input
               type="radio"
               name="love-cats"
               id="_love-cats-n"
               value="no"
             >
-              <label for="_love-cats-n">
-                No
-              </label>
-          </div>
+          <label for="_love-cats-n">
+            No
+          </label>
+        </div>
         <div class="item">
           <label for="_color">
             What is your favourite color?

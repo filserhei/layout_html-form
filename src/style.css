@@ -1,9 +1,12 @@
 /* styles go here */
 .set {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .item {
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
+.item:last-child {
+  margin: 0;
+}
